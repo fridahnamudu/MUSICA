@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <tittle>musica</tittle>
+    <head>  
+        <meta charset=“UTF-8”>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/play.css" rel="stylesheet" type="text/css">
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1>MUSICA</h1>
+        
+
+        <div class="topnav">
+            <ul>
+                <a class="active" href="index.html">H</span>ome</a>
+                <a href="services.html">A</span>bout</a>
+                <a href="playlists.html">P</span>laylists</a>
+                <a href="signin.html">S</span>ign in</a>
+                <a href="signup.html">S</span>ign up</a>
+                <a href="contacts.html">C</span>ontacts</a>
+                <a href="comments.html">C</span>omments</a>
+            </ul>
+        </div>
+        <h2> PLAYLISTS</h2>
+        <p> View and listen to your preffered playlist over here, you are also allowed to like &#128077;</p>
+        <p>We have playlists of different categories of music ie:
+            
+            <ul>
+                <li>R&B</li>
+                <li> &#128150;POP MUSIC </li>
+                <li>AFRICAN MUSIC (gengetone , naija, Ugandan music and  South Africa)</li>
+                <li> &#127932;SOUL MUSIC</li>
+                <li>  &#127927; SOUL MUSIC</li>
+                <li> &#128591;GOSPEL MUSIC</li>
+                <li> &#128118;KIDS SONGS</li>
+            </ul>
+        </p>
+        <p> We also promote all the upcomming artists who want to partner with us.</p>
+        
+        <div class="player">
+  
+            <!-- Define the section for displaying details -->
+            <div class="details">
+              <div class="now-playing">PLAYING x OF y</div>
+              <div class="track-art"></div>
+              <div class="track-name">Track Name</div>
+              <div class="track-artist">Track Artist</div>
+            </div>
+          
+            <!-- Define the section for displaying track buttons -->
+            <div class="buttons">
+              <div class="prev-track" onclick="prevTrack()">
+                <i class="fa fa-step-backward fa-2x"></i>
+              </div>
+              <div class="playpause-track" onclick="playpauseTrack()">
+                <i class="fa fa-play-circle fa-5x"></i>
+              </div>
+              <div class="next-track" onclick="nextTrack()">
+                <i class="fa fa-step-forward fa-2x"></i>
+              </div>
+            </div>
+          
+            <!-- Define the section for displaying the seek slider-->
+            <div class="slider_container">
+              <div class="current-time">00:00</div>
+              <input type="range" min="1" max="100"
+                value="0" class="seek_slider" onchange="seekTo()">
+              <div class="total-duration">00:00</div>
+            </div>
+          
+            <!-- Define the section for displaying the volume slider-->
+            <div class="slider_container">
+              <i class="fa fa-volume-down"></i>
+              <input type="range" min="1" max="100"
+                value="99" class="volume_slider" onchange="setVolume()">
+              <i class="fa fa-volume-up"></i>
+            </div>
+          </div>
+        
+    </body>
+    <script src="js/player.js"> </script>
+    </html>
