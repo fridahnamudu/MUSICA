@@ -1,144 +1,60 @@
-/* body{
-    background-color: coral;
-    transition: background-color .5s;
-} */
-body {
-    background-color: lightgreen;
-    
-    /* Smoothly transition the background color */
-    transition: background-color .5s;
-  }
-    
-  /* Using flex with the column direction to
-     align items in a vertical direction */
-  .player {
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-    
-  .details {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 25px;
-  }
-    
-  .track-art {
-    margin: 25px;
-    height: 250px;
-    width: 250px;
-    background-image: url(/images/headphones.jpg);
-    background-size: cover;
+body{
+    background-image: url(/images/photo-1505740420928-5e560c06d30e.jpeg);
+    /* background-image: url(/images/unnamed.jpg); */
+    background-repeat: no-repeat;
     background-position: center;
-    border-radius: 15%;
-  }
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    text-align: center;
+}
+
+
+img{
+    width:100%;
+    min-height: 250px;
+}
+main{
+    padding: 40px;
+}
+.col-mid-3{
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+.album-poster{
+    position: relative;
+    display: block;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px black;
+    transition: all ease 0.4s;
+}
+
+.album-poster:hover{
+    box-shadow:none;
+    transform: scale(0.98) translateY(5px);
+}
+ li, h2, p {
     
-  /* Changing the font sizes to suitable ones */
-  .now-playing {
-    font-size: 1rem;
-  }
-    
-  .track-name {
-    font-size: 3rem;
-  }
-    
-  .track-artist {
-    font-size: 1.5rem;
-  }
-    
-  /* Using flex with the row direction to
-     align items in a horizontal direction */
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-    
-  .playpause-track,
-  .prev-track,
-  .next-track {
-    padding: 25px;
-    opacity: 0.8;
-    
-    /* Smoothly transition the opacity */
-    transition: opacity .2s;
-  }
-    
-  /* Change the opacity when mouse is hovered */
-  .playpause-track:hover,
-  .prev-track:hover,
-  .next-track:hover {
-    opacity: 1.0;
-  }
-    
-  /* Define the slider width so that it scales properly */
-  .slider_container {
-    width: 75%;
-    max-width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-    
-  /* Modify the appearance of the slider */
-  .seek_slider, .volume_slider {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    height: 5px;
-    background: black;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-  }
-    
-  /* Modify the appearance of the slider thumb */
-  .seek_slider::-webkit-slider-thumb,
-  .volume_slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    background: white;
-    cursor: pointer;
-    border-radius: 50%;
-  }
-    
-  /* Change the opacity when mouse is hovered */
-  .seek_slider:hover,
-  .volume_slider:hover {
-    opacity: 1.0;
-  }
-    
-  .seek_slider {
-    width: 60%;
-  }
-    
-  .volume_slider {
-    width: 30%;
-  }
-    
-  .current-time,
-  .total-duration {
-    padding: 10px;
-  }
-    
-  i.fa-volume-down,
-  i.fa-volume-up {
-    padding: 10px;
-  }
-    
-  /* Change the mouse cursor to a pointer
-     when hovered over */
-  i.fa-play-circle,
-  i.fa-pause-circle,
-  i.fa-step-forward,
-  i.fa-step-backward {
-    cursor: pointer;
-  }
-  
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+}
+h4{
+    font-weight: bolder;
+    font-style: italic;
+    color: blueviolet;
+    font-size: 30px;
+
+}
+h2{
+    font-style: italic;
+}
+/*  
+h3{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 50px;
+} */
