@@ -1,6 +1,3 @@
-alert("welcome")
-
-alert("hello")
 var ap1 = new APlayer({
 container: document.getElementById('player1'),
 audio: [{
