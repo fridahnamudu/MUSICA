@@ -8,8 +8,8 @@ var ap1 = new APlayer({
     order: 'list',                  //Audio cycle order, Optional values: 'list', 'random'
     preload:'auto',
     listFolded: false,              //List default collapse
-    listMaxHeight: 900,             //    Maximum height of list
-    storageName: 'aplayer-setting', //Store player settings localStorage key
+    // listMaxHeight:              //    Maximum height of list
+    // storageName: 'aplayer-setting', //Store player settings localStorage key
     
     
     audio: [{
