@@ -3,9 +3,9 @@ var ap1 = new APlayer({
     fixed: false,                   //Turn on the bottom suction mode
     mini: false,                    //Turn on mini mode
     autoplay: false,                //Audio autoplay
-    theme: 'black',               //Theme color
+    theme: 'red',               //Theme color
     loop: 'all',                    //Audio loop, Optional values: 'all', 'one', 'none'
-    order: 'list',                  //Audio cycle order, Optional values: 'list', 'random'
+    order: 'random',                  //Audio cycle order, Optional values: 'list', 'random'
     preload:'auto',
     listFolded: false,              //List default collapse
     // listMaxHeight:              //    Maximum height of list
@@ -147,7 +147,7 @@ var ap1 = new APlayer({
       cover: '/images/images(5).jpeg'
     },
     {
-      name: 'Intentions',
+      name: 'hold on',
       artist: 'Justin Beiber',
       url: '/audio.pop/Justin Bieber - Hold On.mp4',
       cover: '/images/beiber.jpeg'

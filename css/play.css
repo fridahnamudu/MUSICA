@@ -13,40 +13,39 @@ nav{
 
 
 img{
-    width:100%;
+    width:200px;
     min-height: 250px;
+    height:500px;
 }
-main{
-    padding: 40px;
-}
+
 .col-mid-3{
     margin-bottom: 40px;
     margin-top: 30px;
 
 }
-.album-poster{
+img{
     position: relative;
-    display: block;
-    border-radius: 7px;
+    /* display: block; */
+    /* border-radius: 7px; */
     overflow: hidden;
     box-shadow: 0 15px 35px black;
     transition: all ease 0.4s;
 }
 
-.album-poster:hover{
+img:hover{
     box-shadow:none;
     transform: scale(0.98) translateY(5px);
 }
- h2, p {
+ h2 {
     
     font-weight: bold;
     text-align: center;
-    color: rosybrown;
+    color: cyan;
 }
 h4{
     font-weight: bolder;
     font-style: italic;
-    color: blueviolet;
+    color:cyan;
     font-size: 30px;
 
 }
@@ -71,4 +70,33 @@ h3{
     color: goldenrod;
     font-weight: bolder;
     font-size: 50px;
+}
+.aplayer{
+    /* text-align: ; */
+    background-color: black;
+    color:cyan;
+
+
+}
+    
+
+@media screen and (max-width: 600px) {
+    nav {
+      float: none;
+      width: 100%;
+    }
+}
+#div1{
+    width: 100px;
+    height: 50px;
+    animation: mymove 5s infinite;
+    background-image:url(/images/billie.jpeg);
+    position: relative;
+}
+#div1{
+    animation-timing-function: linear;
+}
+@keyframes mymove{
+    from{left:0px;}
+    to{ left: 500px;}
 }
