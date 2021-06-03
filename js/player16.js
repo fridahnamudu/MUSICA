@@ -25,8 +25,8 @@ var ap1 = new APlayer({
         cover: '/images/light.png'
       },
       {
-        name: 'Brian Kelley',
-        artist: 'Beach Cowboy',
+        name: 'Beach Cowboy',
+        artist: 'Brian Kelly',
         url: '/audio.country/Brian Kelley - Beach Cowboy _Official Music Video_.mp4',
         cover: '/images/light.png'
       },
