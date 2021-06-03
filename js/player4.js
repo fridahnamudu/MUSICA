@@ -13,11 +13,271 @@ var ap1 = new APlayer({
     
     
     audio: [{
-      name: 'Ocean Eyes',
-      artist: 'Billie Ellish',
-      url: '/audio/billie.mp4',
-      cover: '/images/billie.jpeg'
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+  
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    },
+    {
+      name: '',
+      artist: '',
+      url: '/',
+      cover: '/'
+    
     }]
+
 
        
 });
