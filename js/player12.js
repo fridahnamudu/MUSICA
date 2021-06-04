@@ -10,7 +10,7 @@ var ap1 = new APlayer({
     listFolded: false,              //List default collapse
     listMaxHeight: 900,             //    Maximum height of list
     storageName: 'aplayer-setting', //Store player settings localStorage key
-    theme: 'red' ,
+    theme: 'red',
     
     
     audio: [{
