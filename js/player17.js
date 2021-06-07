@@ -179,13 +179,13 @@ var ap1 = new APlayer({
       name: 'No Role MOdels',
       artist: 'J Cole',
       url: '/audio.rap/J Cole - No Role Models _2014 Forest Hills Drive_  LYRIC VIDEO.mp4',
-      cover: '/images/cardi.jpeg'
+      cover: '/images/cole.jpeg'
     },
     {
       name: 'Wet Dreamz',
       artist: 'J Cole',
       url: '/audio.rap/J. Cole - Wet Dreamz _Video_.mp4',
-      cover: '/images/cardi.jpeg'
+      cover: '/images/cole.jpeg'
     },
     {
       name: 'Get Ugly',
